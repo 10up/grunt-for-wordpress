@@ -19,8 +19,8 @@ then
 	sudo npm install -g grunt-init
 
 	# Git and git-flow
-	brew install git; brew update git
-	brew install git-flow; brew update git-flow
+	brew install git; brew upgrade git
+	brew install git-flow; brew upgrade git-flow
 
 	# 10up Grunt scripts
 	# Run as sub-commands so script continues if they already exist
